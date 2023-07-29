@@ -1,0 +1,23 @@
+#countdown {
+    font-size: 126px;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    color:white;}
+    @media(min-width: 280px) and (max-width: 820px) {
+      #countdown{
+      font-size: 400%;
+      font-weight: bold;
+      text-align: center;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color:white;}
+      }
+  body{
+      background-color:#000;
+  }
