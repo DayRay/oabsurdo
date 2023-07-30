@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: black;
+}
+html {
+    font-family: Bahnschrift;
+    font-size: 62.5%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1px;
+    max-width: 1200px;
+    margin: 1rem 1rem;
+}
+    .grid div {
+        background-color: #000000;
+        text-align: center;
+        padding: 8rem;
+        border:solid;
+    }
+h1{
+    color: white;
+    font-size:3rem;
+}
+.texto {
+    padding:0.1rem;
+    font-size:1.6rem;
+    color:white;
+}
+#grey{
+    background-image: url(imagens/grey2.png);
+    background-size: 38% 38%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.greySite {
+    text-decoration: none;
+    color: #fff;
+}
+.greySite:hover{
+    color: rgb(85, 85, 85);
+}
+.bug-animation {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    background-color: #F3F3F3;
+    transition: transform 0.3s;
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+  }
+  .bug-animation:hover {
+    transform: scale(1.1);
+  }
