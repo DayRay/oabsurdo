@@ -1,7 +1,13 @@
+
+@font-face {
+  src: url(Roman_New_Times.otf);
+  font-family:rnwt;
+}
 #countdown {
-    font-size: 126px;
-    font-weight: bold;
+    font-size: 165px;
     text-align: center;
+    font-weight:inherit;
+    font-family:rnwt;
     position: fixed;
       top: 20%;
       left: 50%;
@@ -11,8 +17,7 @@
   
     @media(min-width: 280px) and (max-width: 820px) {
       #countdown{
-      font-size: 400%;
-      font-weight: bold;
+      font-size: 600%;
       text-align: center;
       position: fixed;
       top: 20%;
@@ -58,6 +63,7 @@
   position: fixed;
   bottom: 5%;
   right: 3%;
+  z-index:2;
 }
 .bug-animation:hover {
   transform: scale(1.1);

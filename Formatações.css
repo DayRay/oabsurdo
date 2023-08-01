@@ -1,7 +1,12 @@
+@font-face {
+    src: url(Roman_New_Times.otf);
+    font-family:rnwt;
+  }
 * {
     margin: 0;
     padding: 0;
     border: 0;
+    scroll-behavior: smooth;
 }
 body{
     background-color: black;
@@ -15,20 +20,21 @@ html {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 1px;
     max-width: 1200px;
-    margin: 1rem 1rem;
 }
     .grid div {
         background-color: #000000;
         text-align: center;
-        padding: 8rem;
-        border:solid;
+        padding: 7.5rem;
     }
 h1{
     color: white;
     font-size:3rem;
+
+    text-align: center;
 }
 .texto {
     padding:0.1rem;
+    text-align: center;
     font-size:1.6rem;
     color:white;
 }
@@ -38,7 +44,10 @@ h1{
     background-position: center bottom;
     background-repeat: no-repeat;
     opacity: 1;
+    text-decoration: none;
+    color: #fff;
 }
+
 .greySite {
     text-decoration: none;
     color: #fff;
@@ -63,3 +72,60 @@ h1{
   .bug-animation:hover {
     transform: scale(1.1);
   }
+.grid-texto{
+    text-decoration: none;
+    color: white;
+
+}
+.grid-texto:hover{
+    color: grey;
+}
+section h1{
+    color: white;
+    font-size:3rem;
+    padding:1rem;
+    text-align: center;
+}
+section .texto {
+    padding:0.1rem;
+    text-align: center;
+    font-size:1.6rem;
+    color:white;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+#gabe {
+    background-image: url(imagens/gabe1.png);
+    background-size: 26%;
+    filter: saturate(2) hue-rotate(180deg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    opacity: 1;
+    text-decoration: none;
+    color: #fff;
+}
+#gabe-site {
+    text-decoration: none;
+    color: #fff;
+}
+#gabe-site:hover {
+    color: #f36d2f;
+}
+.hidden {
+    filter: blur(10px);
+}
+@media(min-width: 280px) and (max-width: 820px){
+    section .texto {
+        padding:0.1rem;
+        text-align: center;
+        font-size:1.6rem;
+        color:white;
+        text-align: center;
+        margin: 0 auto;
+        max-width:70%;
+        }
+    section{
+        padding-bottom: 10rem;
+    }
+}
