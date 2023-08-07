@@ -11,6 +11,20 @@
 body{
     background-color: black;
 }
+
+#countdown {
+    z-index: 1;
+      font-size: 110px;
+      text-align: center;
+      font-weight:inherit;
+      font-family:rnwt;
+      position: fixed;
+        bottom: -7%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+      color:white;
+  }
+
 html {
     font-family: Bahnschrift;
     font-size: 62.5%;
@@ -55,23 +69,49 @@ h1{
 .greySite:hover{
     color: rgb(85, 85, 85);
 }
+
 .bug-animation {
     display: inline-block;
     padding: 10px;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 5px;
     font-size: 18px;
     text-decoration: none;
-    color: black;
-    background-color: #F3F3F3;
+    color: rgb(255, 255, 255);
     transition: transform 0.3s;
     position: fixed;
     bottom: 5%;
     right: 3%;
+    z-index:2;
   }
+
   .bug-animation:hover {
-    transform: scale(1.1);
+    color:black;
+    background-color:white;
+    border: 2px solid white;
   }
+
+  .bug-animation2 {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: transform 0.3s;
+    position: fixed;
+    bottom: 5%;
+    left: 3%;
+    z-index:2;
+  }
+
+  .bug-animation2:hover {
+    color:black;
+    background-color:white;
+    border: 2px solid white;
+  }
+
 .grid-texto{
     text-decoration: none;
     color: white;
@@ -129,4 +169,19 @@ section .texto {
     section{
         padding-bottom: 10rem;
     }
+}
+#dot-sessoes{
+    color:white;
+    margin: 1rem;
+    text-align: center;
+}
+#text-sessoes{
+    font-size: 12rem;
+    
+    display: inline-block;
+    padding: 15px;
+    border-radius: 5px;
+}
+#text-sessoes:hover{
+    color: #000000;
 }

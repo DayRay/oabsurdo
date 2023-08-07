@@ -1,5 +1,6 @@
 
 *{
+  font-family:rnwt;
   color:white;
 }
 @font-face {
@@ -95,4 +96,31 @@ body{
   color:black;
   background-color:white;
   border: 2px solid white;
+}
+.bug-animation2 {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: transform 0.3s;
+  position: fixed;
+  bottom: 5%;
+  left: 3%;
+  z-index:2;
+}
+.bug-animation2:hover {
+  color:black;
+  background-color:white;
+  border: 2px solid white;
+}
+#days{
+  padding-top: 35%;
+  text-align: center;
+  font-weight:inherit;
+  z-index: 1;
+  font-size:84px;
+  color:rgb(255, 255, 255);
 }
