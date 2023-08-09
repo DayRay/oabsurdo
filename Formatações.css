@@ -20,7 +20,7 @@ body{
       font-family:rnwt;
       position: fixed;
         bottom: -7%;
-        left: 52%;
+        left: 50%;
         transform: translate(-50%, -50%);
       color:white;
   }
@@ -177,11 +177,44 @@ section .texto {
 }
 #text-sessoes{
     font-size: 12rem;
-    
+    color: white;
     display: inline-block;
     padding: 15px;
     border-radius: 5px;
+    text-decoration: none;
 }
 #text-sessoes:hover{
-    color: #000000;
+    opacity: 0.5;
+}
+#dot-sessoes2{
+    color:white;
+    margin: 1rem;
+    text-align: center;
+}
+#text-sessoes2{
+    font-size: 12rem;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#text-sessoes2:hover{
+    opacity: 0.5;
+}
+#dot-sessoes3{
+    color:white;
+    margin: 1rem;
+    text-align: center;
+}
+#text-sessoes3{
+    font-size: 12rem;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#text-sessoes3:hover{
+    opacity: 0.5;
 }
