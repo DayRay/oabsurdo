@@ -1,5 +1,5 @@
     // Set the countdown date and time
-    var countdownDate = new Date("August 10, 2023 18:00:00").getTime();
+    var countdownDate = new Date("August 8, 2023 18:00:00").getTime();
   
     // Update the countdown every second
     var countdown = setInterval(function() {
@@ -21,6 +21,6 @@
       // If the countdown is finished, display a message
       if (distance < 0) {
         clearInterval(countdown);
-        document.getElementById("countdown").innerHTML = "POSSUM";
+        document.getElementById("countdown").innerHTML = "Espelho";
       }
     }, 1000);

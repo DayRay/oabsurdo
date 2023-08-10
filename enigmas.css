@@ -1,3 +1,11 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+html{
+    font-size: 62.5%;
+}
 #fundo2{
 background: black;
 background-image:url("imagens/fundo2.png  ");
@@ -6,4 +14,33 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 filter: black;
 background-size: cover;
+}
+#espelho{
+    background-image: url(imagens/Espelho.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#enigma{
+    color: white;
+    font-size: 8rem;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#enigma2{
+    color: white;
+    font-size: 8rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#olho{
+    background-image: url(imagens/ThereIsSomethingWrong.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
